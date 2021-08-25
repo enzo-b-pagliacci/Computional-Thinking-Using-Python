@@ -1,0 +1,11 @@
+for i in range (1, 11):
+    print( str(i) + " * 1 = " + str(1 * i))
+    print( str(i) + " * 2 = " + str(2 * i))
+    print( str(i) + " * 3 = " + str(3 * i))
+    print( str(i) + " * 4 = " + str(4 * i))
+    print( str(i) + " * 5 = " + str(5 * i))
+    print( str(i) + " * 6 = " + str(6 * i))
+    print( str(i) + " * 7 = " + str(7 * i))
+    print( str(i) + " * 8 = " + str(8 * i))
+    print( str(i) + " * 9 = " + str(9 * i))
+    print( str(i) + " * 10 = " + str(10 * i))

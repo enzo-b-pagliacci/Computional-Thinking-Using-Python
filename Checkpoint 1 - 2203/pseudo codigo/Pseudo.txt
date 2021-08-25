@@ -1,0 +1,146 @@
+1- PrimerioExrc
+var
+x1: int
+x2: int
+x3: int
+r1: int
+rQuadrado: int
+
+INICIO
+exiba("Insira 3 números inteiros:")
+leia(x1, x2, x3)
+
+
+r1 := x1 + x2 + x3  
+rQuadrado := r1 * r1  
+
+
+exiba("O resultado é: " rQuadrado)
+FIM
+-=-=-=-=-=--=-=-=--=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-
+2- SegundoExrc
+var
+x1: Real
+x2: Real
+x3: Real
+x4: Real
+r1: Real
+r2: Real
+
+INICIO
+exiba("Insira 4 valores:")
+leia(x1, x2, x3, x4)
+
+
+r1 := x1 * x3
+r2 := x2 + x4
+
+
+exiba("Os resultados são: " r1 " e " r2)
+FIM
+-=-=-=-=-=--=-=-=--=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-
+3- TerceiroExrc
+var
+xDol: real
+xRea: real
+xR: real
+
+INICIO
+exiba("Informe a cotação do dolar:")
+ler(xDol)
+exiba("Informe o quanto tem em reais:")
+ler(xReal)
+
+
+xR := xReal / xDol  
+
+
+exiba("Você tem em dólares:" xR)
+FIM
+=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-
+4- QuartoExrc
+var
+xLc: real
+xVa: real
+xR: real
+
+INICIO
+exiba("informe o preço do litro do combustível:")
+ler(xLc)
+exiba("informe o quanto em dinheiro deseja abastecer")
+ler(xVa)
+
+xR := xLc / xVa
+
+
+exiba("A quantidade de litros comprada é:" xR)
+FIM
+=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-==
+5- QuintoExrc
+var
+xC: real
+xR: real
+
+ENTRADA
+exiba: "Insira o valor em graus celsius:"
+ler: xC
+
+PROCESSAMENTO
+( xC * 9/5) + 32 = xR
+
+SAIDA
+exiba: ("o valor em F° é:" xR)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=--=-=-=-=-
+6- SextoExrc
+var 
+xA:real
+xR:real
+xV: real
+
+INICIO
+exiba("Insira a altura e o valor de r: ")
+ler(xA, xR)
+
+
+
+xV := 3.14 * (xR * xR) * xA
+
+
+exiba("O volume é:" xV)
+FIM
+=-=-=-=-=-=-=--=-=--=--=--==-=-=-=-=-=-=-=-=-=-=-=-=-=-
+7- SetimoExrc
+var
+vB: real
+pJ: real
+nA: real
+xR: real
+
+INICIO
+exiba("informe o valor de um boleto, o percentual de juros cobrado e o numero de dias em atraso: ")
+ler(vB, pJ, nA)
+
+
+xR := vB + (vB * (pJ/100)) *nA
+
+
+exiba("O valor a ser pagado será:" xR)
+FIM
+--=-=-=-=-=-=-=-=-=--=--=--=--=-==-=-=-=-=-=-=-=-=-=-=
+8- OitavoExrc
+var
+xS: real
+xD: real
+xSobra: real
+xR: real
+
+INICIO
+exiba("informe o seu slário e suas despesas mensais")
+ler(xS, xD)
+
+
+xSobra := xS - xD
+xR := 1000000 / (xSobra * 12) 
+
+exiba("Para se tornar milionário, demorará: " xR " anos!")
+FIM

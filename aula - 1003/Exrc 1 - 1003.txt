@@ -1,0 +1,15 @@
+Algoritmo "QUADRADO"
+
+var
+numero, quadrado: inteiro
+
+Inicio
+
+	escreva("Entre com um número: ")
+	leia(numero)
+
+	quadrado := numero * numero
+
+	escreva("O quadrado do número informado é: ", quadrado)
+
+Fim

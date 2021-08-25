@@ -1,0 +1,141 @@
+1- PrimerioExrc
+var
+x1: int
+x2: int
+x3: int
+r1: int
+rQuadrado: int
+
+ENTRADA:
+exibir ao usuário: "Insira 3 números inteiros:"
+leia: x1, x2, x3
+
+PROCESSAMENTO: 
+x1 + x2 + x3 = r1
+r1 * r1 = rQuadrado
+
+SAIDA:
+exibir ao usuário: ("O resultado é: " rQuadrado)
+-=-=-=-=-=--=-=-=--=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-
+2- SegundoExrc
+var
+x1: Real
+x2: Real
+x3: Real
+x4: Real
+r1: Real
+r2: Real
+
+ENTRADA:
+exiba: "Insira 4 valores:"
+leia: x1, x2, x3, x4
+
+PROCESSAMENTO:
+r1 = x1 * x3
+r2 = x2 + x4
+
+SAIDA:
+exiba: ("Os resultados são: " r1 " e " r2)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=--=-=--=-=-=-=-
+3- TerceiroExrc
+var
+xDol: real
+xRea: real
+xR: real
+
+ENTRADA:
+exiba: "Informe a cotação do dolar:"
+ler: xDol
+exiba: "Informe o quanto tem em reais:"
+ler: xReal
+
+PROCESSAMENTO
+xR = xReal / xDol  
+
+SAIDA
+exiba: ("Você tem em dólares:" xR)
+=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-
+4- QuartoExrc
+var
+xLc: real
+xVa: real
+xR: real
+
+ENTRADA:
+exiba: "informe o preço do litro do combustível:"
+ler: xLc
+exiba: "informe o quanto em dinheiro deseja abastecer"
+ler: xVa
+
+PROCESSAMENTO:
+xR: xLc / xVa
+
+SAIDA:
+exiba: ("A quantidade de litros comprada é:" xR)
+=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-==
+5- QuintoExrc
+var
+xC: real
+xR: real
+
+ENTRADA
+exiba: "Insira o valor em graus celsius:"
+ler: xC
+
+PROCESSAMENTO
+( xC * 9/5) + 32 = xR
+
+SAIDA
+exiba: ("o valor em F° é:" xR)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=--=-=-=-=-
+6- SextoExrc
+var 
+xA:real
+xR:real
+xV: real
+
+ENTRADA
+exiba: "Insira a altura e o valor de r: "
+ler: xA
+ler: xR
+
+PROCESSAMENTO
+xV = 3.14 * (xR * xR) * xA
+
+SAIDA
+exiba: ("O volume é:" xV)
+=-=-=-=-=-=-=--=-=--=--=--==-=-=-=-=-=-=-=-=-=-=-=-=-=-
+7- SetimoExrc
+var
+vB: real
+pJ: real
+nA: real
+xR: real
+
+ENTRADA
+exiba: "informe o valor de um boleto,o percentual de juros cobrado e o numero de dias em atraso:"
+ler: vB, pJ, nA
+
+PROCESSAMENTO
+xR = vB + (vB * (pJ/100)) *nA
+
+SAIDA
+exiba: ("O valor a ser pagado será:" xR)
+--=-=-=-=-=-=-=-=-=--=--=--=--=-==-=-=-=-=-=-=-=-=-=-=
+8- OitavoExrc
+var
+xS: real
+xD: real
+xSobra: real
+xR: real
+
+ENTRADA
+exiba: "informe o seu slário e suas despesas mensais"
+ler: xS, xD
+
+PROCESSAMENTO
+xSobra = xS - xD
+xR = 1000000 / (xSobra * 12) 
+
+SAIDA 
+exiba: ("Para se tornar milionário, demorará: " xR " anos!")
