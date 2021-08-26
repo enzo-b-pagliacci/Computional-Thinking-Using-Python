@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="CTP" title="CTP" src="./img/logo.png" />
+    <img alt="CTP" title="CTP" src="https://github.com/enzo-b-pagliacci/ComputionalThinkingUsingPython/blob/main/logo/thumbnail_pythonm.png" />
 </h1>
 <h4 align="center"> 
 	🚧 ✏ Em aprendizagem... 🚧
